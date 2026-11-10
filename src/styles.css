@@ -97,3 +97,169 @@
     height: 60px;
     object-fit: contain;
 }
+
+/* CAMPUSFOUND PREMIUM DARK THEME */
+
+body {
+    background: #0B1220;
+    color: #F1F5F9;
+}
+
+.header {
+    background: #111C30;
+    border-bottom: 1px solid #293750;
+}
+
+.header .nav-links a {
+    color: #D5DEEA;
+}
+
+.brand-name {
+    color: #ED1C24;
+}
+
+/* Hero section */
+.hero {
+    background:
+        linear-gradient(
+            90deg,
+            rgba(11,18,32,0.94),
+            rgba(11,18,32,0.78),
+            rgba(11,18,32,0.35)
+        ),
+        url('/campus-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    color: #F1F5F9;
+}
+
+.hero-desc {
+    color: #C0CBDC;
+}
+
+/* Stats section */
+.stats-strip {
+    background: #111C30;
+    border-color: #293750;
+}
+
+.stats-strip strong {
+    color: #F1F5F9;
+}
+
+.stats-strip span {
+    color: #A8B5C9;
+}
+
+/* Main sections */
+.section,
+.page-shell {
+    color: #F1F5F9;
+}
+
+.section-heading h2,
+.page-intro h1,
+.cta-section h2 {
+    color: #F1F5F9;
+}
+
+.section-heading p,
+.page-intro p {
+    color: #A8B5C9;
+}
+
+/* Item cards */
+.item-card,
+.form-card,
+.login-card,
+.filter-panel,
+.success-card {
+    background: #17243A;
+    border: 1px solid #293750;
+    color: #F1F5F9;
+}
+
+.item-info h3,
+.form-card h2,
+.login-card h1 {
+    color: #F1F5F9;
+}
+
+.item-info p,
+.item-top {
+    color: #A8B5C9;
+}
+
+/* How it works */
+.how-band {
+    background: #111C30;
+}
+
+.step {
+    background: #17243A;
+    border: 1px solid #293750;
+    color: #F1F5F9;
+}
+
+.step h3 {
+    color: #F1F5F9;
+}
+
+.step p {
+    color: #A8B5C9;
+}
+
+/* Inputs */
+input,
+textarea,
+select {
+    background: #111C30;
+    color: #F1F5F9;
+    border: 1px solid #384A65;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #8B9BB2;
+}
+
+/* Links */
+.text-link {
+    color: #ED1C24;
+}
+
+/* Footer */
+.footer {
+    background: #080E19;
+}
+
+/* Keep buttons red */
+.btn-primary {
+    background: #ED1C24;
+    color: white;
+}
+
+/* Keep homepage search box white */
+
+.hero-search {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+}
+
+.hero-search input {
+    background: #ffffff;
+    color: #172033;
+    border: none;
+}
+
+.hero-search input::placeholder {
+    color: #7b8798;
+}
+
+.hero-search svg {
+    color: #7b8798;
+}
